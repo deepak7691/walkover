@@ -70,12 +70,12 @@ body{
     height: 59px;
 }
 .border{
-    position: absolute;
-    width: 30px;
-    height: 4px;
-    background-color: blue;
-    bottom: 330px;
-    width: 210px;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+ 
+  bottom: 532px;
+  width: 210px;
 }
 
 .section {
