@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  height: 564px;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid lightgray;
+}
+
+.parts {
+  margin-left: 15px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 38px;
+  align-items: center;
+}
+.text {
+    position: relative;
+  display: inline;
+  font-size: 25px;
+}
+
+.headingsTitle {
+  display: flex;
+  gap: 78px;
+}
+.mainContent {
+  display: flex;
+  width: 100%;
+  margin: 0 27px;
+  height: 100vh;
+  border: 1px solid lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.top-parts {
+   
+    padding: 13px 5px;
+    width: 100%;
+    height: 59px;
+}
+.border{
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: blue;
+    bottom: 330px;
+    width: 210px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  border: 1px solid lightgrey;
+  margin: 0 28px;
+}
+
+.leftsidemenu {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20%;
+  height: 100vh;
+}
+
+.inputfield {
+    margin: 20px auto 3px auto;
+    width: 73%;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.rightsidemenu {
+  padding: 15px;
+  width: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  height: auto;
+}
+.margin{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.more-margin{
+    margin-left: 40px;
+}
+.card {
+  width: 222px;
+  height: 245px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.pointer{
+    cursor: pointer;
+}
+
+img {
+  padding: 8px;
+  width: 100%;
+  height: 245px;
+  object-fit: cover;
+}
+
+.all{
+    margin: 0 auto;
+    width: 76%;
+    background-color: rgb(132, 210, 236);
+    padding: 10px;
+    text-align: left;
+}
+
+.icon{
+    color: brown;
+    font-size: 22px;
+}
